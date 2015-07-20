@@ -7,7 +7,8 @@ html,body {
 
 
 body {
-  background: #000000 !important;
+  background: url('img/about.jpg')no-repeat;
+  background-size: 100% 100%;
 }
 
 p {
@@ -24,17 +25,23 @@ p {
   max-width: 50%;
   }
 
+img.hirez {
+  height: 5em;
+  margin: 1% 0 1% 26%;
+  }
 
 img.logo {
-  height: 10em;
-  width: 15em;
-  float: left;
+  width: 12em;
 }
 
 
 .carousel-container {
   width: 73%;
-  clear: left;
+
+}
+
+.timeline-time {
+  color:#fff;
 }
 
 
@@ -48,4 +55,3 @@ img.logo {
   font-size: 1.5em;
   margin-bottom: 1em;
 }
-
