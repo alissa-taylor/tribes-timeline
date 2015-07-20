@@ -18,11 +18,18 @@ p {
 .about-paragraph {
  width: 50%;
  text-align: center;
-  margin: 0% 0 0 26%;
-  }
+ margin: 0% 0 0 26%;
+ }
+
+p.about-paragraph {
+  font-family: "Open Sans",sans-serif;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
 
 .img {
-  max-width: 50%;
+  max-width: 100%;
   }
 
 img.hirez {
@@ -35,15 +42,9 @@ img.logo {
 }
 
 
-.carousel-container {
-  width: 73%;
-
-}
-
 .timeline-time {
   color:#fff;
 }
-
 
 .cd {
   background: #9E8E8E;
