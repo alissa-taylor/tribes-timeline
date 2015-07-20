@@ -217,6 +217,10 @@ html(lang="en")
                     img(src="img/ascend-04.jpg")
                   div
                     img(src="img/ascend-05.jpg")
+                  div
+                    img(src="img/ascend-06.jpg")
+                  div
+                    img(src="img/ascend-07.jpg")
                 
             button.timeline-toggle
 script.
@@ -225,11 +229,9 @@ script.
   });
 script.
   $('.carousel').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
     slidesToShow: 1,
-    centerMode: false,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
     variableWidth: true,
-    initialSlide: 1,
   });
