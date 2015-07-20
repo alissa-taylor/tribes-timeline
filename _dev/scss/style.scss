@@ -27,7 +27,6 @@ p.about-paragraph {
   line-height: 1.5em;
 }
 
-
 .img {
   max-width: 100%;
   }
@@ -41,6 +40,9 @@ img.logo {
   width: 12em;
 }
 
+.carousel-container {
+  max-width: 54.5%;
+}
 
 .timeline-time {
   color:#fff;
@@ -55,4 +57,10 @@ img.logo {
   font-weight: 600;
   font-size: 1.5em;
   margin-bottom: 1em;
+}
+
+.boxart img {
+  position: absolute;
+  left: -260px;
+  width: 15em;
 }
