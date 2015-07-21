@@ -21,25 +21,33 @@ p {
  margin: 0% 0 0 26%;
  }
 
-p.about-paragraph {
-  font-family: "Open Sans",sans-serif;
-  font-size: 1.4em;
-  line-height: 1.3em;
-  position: relative;
-  left: 174px;
-  top: -66px;
-  text-align: left;
-  padding: 0;
-}
+ p.about-paragraph {
+   font-family: "Open Sans",sans-serif;
+   font-size: 1.4em;
+   line-height: 1.3em;
+   position: relative;
+   left: 54px;
+   top: 46px;
+   text-align: left;
+   padding: 0;
+ }
 
 .img {
   max-width: 100%;
   }
 
-img.hirez {
-  height: 5em;
-  margin: 1% 0 0% 24%;
-}
+  img.tribes {
+    height: 6em;
+    margin: 2% 0 0 38%;
+  }
+
+  img.hirez {
+    height: 5em;
+    margin: 5% 0 0 23%;
+    padding: 5% 0 0 0;
+    position: absolute;
+    display: none;
+  }
 
 img.logo {
   width: 12em;
@@ -108,4 +116,9 @@ img.logo {
   text-align: center;
   text-decoration: none;
   font-size: .75em
+}
+
+.footer img {
+  height: 5em;
+  margin: -1% 50% 0 0;
 }
