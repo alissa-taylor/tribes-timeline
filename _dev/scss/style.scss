@@ -38,6 +38,7 @@ img.hirez {
 
 img.logo {
   width: 12em;
+  height: 5em;
 }
 
 .carousel-container {
@@ -63,4 +64,23 @@ img.logo {
   position: absolute;
   left: -260px;
   width: 15em;
+}
+
+.download {
+  margin: -4em 0em 0 16em;
+  position: absolute;
+  border: 0px solid #FFF;
+  border-radius: 1em;
+  width: 9em;
+  background-color: #DC4431;
+  color: #FFF;
+  text-align: center;
+  font-family: "Open Sans",sans-serif;
+  padding: 0.45em;
+  text-transform: uppercase;
+}
+
+.download:hover {
+  -webkit-filter: brightness(1.2);
+  cursor: pointer;
 }
