@@ -1,13 +1,16 @@
-html,body {
+html {
   height: 100%;
   min-height: 100%;
   margin: 0;
   overflow-x: hidden;
 }
 
-
 body {
-  background: url('img/about.jpg')no-repeat;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background: url('img/about.jpg') no-repeat;
   background-size: 100% 100%;
 }
 
@@ -15,43 +18,44 @@ p {
   color: #ffffff;
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+}
 .about-paragraph {
- width: 50%;
- text-align: center;
- margin: 0% 0 0 26%;
- }
+  width: 50%;
+  text-align: center;
+}
 
- p.about-paragraph {
-   font-family: "Open Sans",sans-serif;
-   font-size: 1.4em;
-   line-height: 1.3em;
-   position: relative;
-   left: 54px;
-   top: 46px;
-   text-align: left;
-   padding: 0;
- }
+p.about-paragraph {
+  font-family: "Open Sans",sans-serif;
+  font-size: 1.4em;
+  line-height: 1.3em;
+  position: relative;
+  text-align: left;
+  padding: 0;
+}
 
 .img {
   max-width: 100%;
-  }
+}
 
-  img.tribes {
+img {
+  &.tribes {
     height: 6em;
     margin: 2% 0 0 38%;
   }
-
-  img.hirez {
+  &.hirez {
     height: 5em;
     margin: 5% 0 0 23%;
     padding: 5% 0 0 0;
     position: absolute;
     display: none;
   }
-
-img.logo {
-  width: 12em;
-  height: 5em;
+  &.logo {
+    width: 12em;
+    height: 5em;
+  }
 }
 
 .carousel-container {
@@ -62,7 +66,7 @@ img.logo {
 }
 
 .timeline-time {
-  color:#fff;
+  color: #fff;
 }
 
 .cd {
@@ -74,13 +78,12 @@ img.logo {
   font-size: 1.5em;
   margin-bottom: 1em;
   font-family: trebuchet ms;
-}
-
-.cd:before {
-  background-color: #000;
-  content: "CD Key:";
-  margin-left: -95px;
-  padding: 6px;
+  &:before {
+    background-color: #000;
+    content: "CD Key:";
+    margin-left: -95px;
+    padding: 6px;
+  }
 }
 
 .boxart img {
@@ -104,26 +107,25 @@ img.logo {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-}
-
-.download:hover {
-  -webkit-filter: brightness(1.2);
-  cursor: pointer;
+  &:hover {
+    -webkit-filter: brightness(1.2);
+    cursor: pointer;
+  }
 }
 
 .footer {
   background-color: rgba(199, 196, 196, 0.35);
   text-align: center;
   text-decoration: none;
-  font-size: .75em
-}
-
-.footer img {
-  height: 5em;
-  margin: -2.5% 50% 0 0
-}
-
-.footer p {
-  padding: 33px 0 0 0;
-  margin: 0 0 0 -9%;
+  font-size: 0.75em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    order: -1;
+    padding-right: 1%;
+  }
+  img {
+    height: 5em;
+  }
 }
