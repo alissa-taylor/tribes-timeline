@@ -143,7 +143,34 @@ h2.timeline-time:nth-of-type(1) {
 }
 
 @media (max-width: 768px) {
+  button.timeline-toggle {
+    margin: -80% 0 0 0px !important;
+}
   .boxart {
     display: none;
   }
+  .carousel-container {
+    display: none;
+  }
+  img.logo {
+    margin-left: -50px;
+}
+.timeline-event-content p {
+  width: 24% !important;
+  margin-left: -45px !important;
+}
+.timeline-series dt a {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cd {
+    width: 25%;
+    padding: 0;
+    font-size: 1.25em;
+    margin-left: -55px;
+    line-height: 35px;
+}
+.cd:before {
+    margin-left: 0 !important;
+}
 }
