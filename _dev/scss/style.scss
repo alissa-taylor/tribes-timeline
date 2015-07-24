@@ -55,7 +55,7 @@ p.about-paragraph {
 
 img {
   &.tribes {
-    height: 4.5em;
+    height: 6.5em;
     margin-top: 2%;
   }
   &.hirez {
@@ -89,7 +89,7 @@ h2.timeline-time:nth-of-type(1) {
 .cd {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
-  width: 38%;
+  width: 42%;
   padding: 5px 0px 5px 95px;
   font-weight: 600;
   font-size: 1.5em;
@@ -151,25 +151,44 @@ h2.timeline-time:nth-of-type(1) {
 }
 
 @media (max-width: 768px) {
-  button.timeline-toggle {
-    margin: -80% 0 0 0px !important;
+  p.about-paragraph {
+    font-size: 0.75em;
+    width: 90%;
 }
+  h1 {
+    font-size: 20px;
+    margin-left: -57px;
+  }
+
+  .timeline-container {
+    margin: 0 0 0 -30%;
+}
+
+  button.timeline-toggle {
+    margin: -60% 0 0 0px !important;
+}
+  .timeline-series dt{
+    line-height: 1.2em;
+  }
+  .download {
+    display: none;
+  }
   .boxart {
     display: none;
   }
   .carousel-container {
     display: none;
   }
+  img.tribes {
+    height: 4.0em;
+    margin-top: 3%;
+}
   img.logo {
     margin-left: -50px;
 }
 .timeline-event-content p {
-  width: 24% !important;
+  width: 28% !important;
   margin-left: -45px !important;
-}
-.timeline-series dt a {
-  display: flex;
-  flex-wrap: wrap;
 }
 .cd {
     width: 25%;
@@ -180,5 +199,8 @@ h2.timeline-time:nth-of-type(1) {
 }
 .cd:before {
     margin-left: 0 !important;
+}
+.timeline-wrapper h2 {
+    font-size: 2em !important;
 }
 }
