@@ -39,6 +39,15 @@ gulp.task('javascript', function() {
     .pipe(size({ title: 'scripts' }));
 });
 
+// Minify JS
+gulp.task('javascript', function() {
+  return gulp.src(['./_dev/js/_bower/jquery-1.11.3.min.js','./_dev/js/_vendor/*.js', './_dev/js/*.js'])
+    .pipe(uglify())
+    .pipe(concat('god-reveal.js'))
+    .pipe(gulp.dest('./_prod/js/'))
+    .pipe(size({ title: 'god-reveal' }));
+});
+
 // Compile Jade
 gulp.task('jade', function() {
   gulp.src('./_dev/*.jade')
