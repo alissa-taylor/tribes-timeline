@@ -144,10 +144,18 @@ h2.timeline-time:nth-of-type(1) {
   a {
     order: -1;
     padding-right: 2%;
-  }
+    left: -216px;
+    position: relative;
+    }
   img {
     height: 5em;
   }
+}
+.copyright {
+  position: relative;
+  width: 480px;
+  left: -240px;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
@@ -202,5 +210,11 @@ h2.timeline-time:nth-of-type(1) {
 }
 .timeline-wrapper h2 {
     font-size: 2em !important;
-}
+  }
+.footer a {
+    left: 0px;
+    }
+.copyright {
+  left: 0px;
+  }
 }
