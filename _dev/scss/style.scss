@@ -147,7 +147,7 @@ h2.timeline-time:nth-of-type(1) {
     position: relative;
     align-items: center;
     align-content: center;
-    left: -8px;
+    display: flex;
     }
   img {
     height: 5em;
@@ -156,13 +156,13 @@ h2.timeline-time:nth-of-type(1) {
 .copyright {
   position: relative;
   top: -16px;
-  left: -94px;
+  left: -5%;
 }
 
 p.trademark {
     position: relative;
     top: 8px;
-    left: -350px;
+    left: -18.5%;
     width: 560px;
     text-align: left;
 }
