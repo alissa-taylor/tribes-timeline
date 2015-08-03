@@ -143,9 +143,11 @@ h2.timeline-time:nth-of-type(1) {
   font-family: "Open Sans",sans-serif;
   a {
     order: -1;
-    padding-right: 2%;
-    left: -216px;
+    padding-right: 6%;
     position: relative;
+    align-items: center;
+    align-content: center;
+    left: -8px;
     }
   img {
     height: 5em;
@@ -153,9 +155,16 @@ h2.timeline-time:nth-of-type(1) {
 }
 .copyright {
   position: relative;
-  width: 480px;
-  left: -240px;
-  text-align: left;
+  top: -16px;
+  left: -94px;
+}
+
+p.trademark {
+    position: relative;
+    top: 8px;
+    left: -350px;
+    width: 560px;
+    text-align: left;
 }
 
 @media (max-width: 768px) {
