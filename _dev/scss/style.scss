@@ -142,11 +142,6 @@ h2.timeline-time:nth-of-type(1) {
   font-family: "Open Sans",sans-serif;
   a {
     order: -1;
-    padding-right: 6%;
-    position: relative;
-    align-items: center;
-    align-content: center;
-    display: flex;
     }
   img {
     height: 5em;
@@ -154,23 +149,16 @@ h2.timeline-time:nth-of-type(1) {
 }
 .copyright {
   position: relative;
-  top: -16px;
-  left: -5%;
-}
-
-p.trademark {
-    position: relative;
-    top: 8px;
-    left: -18.5%;
-    width: 580px;
-    text-align: left;
-}
+  flex-wrap: wrap;
+  width: 50%;
+  text-align: left;
+  }
 
 @media (max-width: 768px) {
   p.about-paragraph {
     font-size: 0.75em;
     width: 90%;
-}
+  }
   h1 {
     font-size: 20px;
     margin-left: -57px;
@@ -178,11 +166,11 @@ p.trademark {
 
   .timeline-container {
     margin: 0 0 0 -30%;
-}
+  }
 
   button.timeline-toggle {
     margin: -60% 0 0 0px !important;
-}
+  }
   .timeline-series dt{
     line-height: 1.2em;
   }
@@ -198,31 +186,31 @@ p.trademark {
   img.tribes {
     height: 4.0em;
     margin-top: 3%;
-}
+  }
   img.logo {
     margin-left: -50px;
-}
-.timeline-event-content p {
+  }
+  .timeline-event-content p {
   width: 28% !important;
   margin-left: -45px !important;
-}
-.cd {
+  }
+  .cd {
     width: 25%;
     padding: 0;
     font-size: 1.25em;
     margin-left: -55px;
     line-height: 35px;
-}
-.cd:before {
-    margin-left: 0 !important;
-}
-.timeline-wrapper h2 {
-    font-size: 2em !important;
   }
-.footer a {
-    left: 0px;
+  .cd:before {
+      margin-left: 0 !important;
+  }
+  .timeline-wrapper h2 {
+      font-size: 2em !important;
     }
-.copyright {
-  left: 0px;
+  .footer {
+    justify-content: flex-start;
+  }
+  .copyright{
+    width: 100%;
   }
 }
